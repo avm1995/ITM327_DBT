@@ -1,0 +1,19 @@
+tasty_bytes:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: TRAINING_ROLE
+      database: TB_101
+      schema: dev
+      warehouse: ANIMAL_TASK_WH
+    prod:
+      type: snowflake
+      account: 'not needed'
+      user: 'not needed'
+      role: TRAINING_ROLE
+      database: TB_101
+      schema: prod
+      warehouse: ANIMAL_TASK_WH
