@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: raw
+    description: 'Raw API source data for news, weather, and stocks'
+    database: SNOWBEARAIR_DB
+    schema: RAW
+    tables:
+      - name: valerio_allan_m1
+        description: 'Raw news article data loaded from the News API'
+        identifier: VALERIO_ALLAN_M1
+
+      - name: valerio_allan_m2
+        description: 'Raw weather data loaded from the Weather API'
+        identifier: VALERIO_ALLAN_M2
+
+      - name: valerio_allan_m3
+        description: 'Raw stock market data loaded from the Stocks API'
+        identifier: VALERIO_ALLAN_M3
