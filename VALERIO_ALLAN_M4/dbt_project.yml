@@ -1,5 +1,5 @@
 ## Project
-name: tasty_bytes
+name: valerio_allan_m4
 version: "1.0"
 config-version: 2
 profile: tasty_bytes
@@ -18,8 +18,9 @@ clean-targets: [target, dbt_modules]
 
 ## Models
 models:
-  tasty_bytes:
+  valerio_allan_m4:
     staging:
       +materialized: view
+      +schema: STAGING
     marts:
       +materialized: table
