@@ -3,7 +3,7 @@
 with cleaned as (
 
     select
-        cast(id as number) as news_id,
+        cast("id" as number) as news_id,
         nullif(trim(category), '') as category,
         to_timestamp_ntz(datetime) as news_datetime,
         nullif(trim(headline), '') as headline,
