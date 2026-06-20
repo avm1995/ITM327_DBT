@@ -21,6 +21,5 @@ models:
   valerio_allan_m4:
     staging:
       +materialized: view
-      +schema: STAGING
     marts:
       +materialized: table
